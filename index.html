@@ -1,8 +1,28 @@
-<DOCTYPE html>
-  <html>
-    <body>
-      <h1>
-        hola coma estas
-      </h1>
-    </body>
-  </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Spinning Image</title>
+  <style>
+    .spinner {
+      width: 200px; /* adjust size as needed */
+      height: 200px;
+      animation: spin 2s linear infinite;
+    }
+
+    @keyframes spin {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <img src="spi.jpeg" alt="Spinning Image" class="spinner">
+
+</body>
+</html>
